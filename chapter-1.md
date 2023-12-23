@@ -8,6 +8,8 @@ The image shown below can be used to easily explain what reinforcement learning 
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00db0e12-cfa8-400f-819c-cd10ece78072/e23fc18c-d61c-456e-b738-da486611fc1d/Untitled.png)
 
+![Alt text](/images/Images/RL.PNG)
+
 Thus, the goal of reinforcement learning is to learn a strategy that maximizes the reward or reduce penalty over a given period of time. 
 
 As conclusion, Reinforcement learning is a type of machine learning in which the agent learns to make decisions by taking actions into the environment and then updating the actions it has token based on the reward and the penalty it has received from the environment. 
