@@ -22,7 +22,7 @@ but reinforcement learning is different from supervised and unsupervised learnin
 - A master chess player - in this situation the chess player can be considered as an agent, the chess board and the pieces can be considered as environments, and the feedback the user receives as eighter winning the game or losing the game can be considered as reward and penalty. so, overtime when the agent has played many games through success and failures the agent updates or improves its decision-making strategy in a way that will make the agent win in different or changing or dynamic environment.
 - Below there is description of how the chess player can be considered as reinforcement learning example using the framework provided on the beginning of this page.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00db0e12-cfa8-400f-819c-cd10ece78072/d466b339-3ebf-4d85-bf2b-216b36902f23/Untitled.png)
+![what is Reinforcement learning](/Images/rll2.PNG "Optional title attribute")
 
 - An adaptive controller
 - Below is an image that shows how adaptive controller can be considered as Reinforcement learning example using the farmwork of RL.
