@@ -3,7 +3,7 @@
 - The most important feature that distinguishes Reinforcement learning from other types of learning is that it uses training information that evaluates the actions taken rather than one that instructs which actions to take by giving the correct actions like in supervised learning.
 - The above idea is all about the two different types of feedback which are: instructive versus evaluative feedback.
 - Instructive feedback is basically independent of the action taken. It tells which actions to take on the other hand evaluative feedback is dependent on the actions, and it evaluates how good the action taken is.
-*What is K-armed Bandit problem?
+What is K-armed Bandit problem?
 
 - K-armed Bandit problem is when you are repeatedly faced with a choice of among k different options or actions and after you made each choice you will receive a numerical reward chosen from a numerical probability of distributions that depends on the actions you have selected.
 - Your objective is to maximize the total expected reward over a period of time which could be over a period of 100 action selection steps.
