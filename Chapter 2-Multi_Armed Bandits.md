@@ -13,3 +13,29 @@ What is K-armed Bandit problem?
 - Thus, the value for an arbitrary action can be written as follows.
 - q*(a)=E [Rt |At=a], the value is the expected reward given that an action a is taken!
 - If we know the value of each of the corresponding actions, then we will end up choosing action that will result in the highest value of the action (reward)
+
+
+Action value methods 
+
+- we will now look closer at methods for estimating the values of actions and using this estimate for selecting actions to take. and these methods are collectively called action-values methods.
+- True value of an action is a mean reward of an action when the action is selected.
+- one natural way to estimate this is by averaging the rewards actually received.
+- Qt(a)=sum of rewards when a taken prior t divided by the number of times a taken prior to t
+- If the denominator goes to zero, then the estimated value of the action is random variable like 0
+- If the denominator goes to infinity, then the estimated value of the actions would converge to the actual values of the action which is qt(a).
+- The above methos is called sample average method for estimating the action-values. it is called average since it is an average of the sample of relevant rewards.
+- The simplest action-selection rule is to select the actions with the highest estimated value (which is selecting the greedy actions)
+- If there are many greedy actions, then the selection can be done arbitrarily may be randomly.
+- At=argmax (Qt(a))
+- The argmax denotes the action for which the following expression Qt(a) is maximized.
+
+
+Exercise 2.1
+
+Answer: The total probability of selecting the greedy action can be calculated using the following formula
+
+Total probability of selecting the greedy action=(1-e) + e/total number of actions 
+
+Total probability of selecting the greedy action= (1-0.5) + 0.5/2
+
+Total probability of selecting the greedy action= 0.75 (75 %)
