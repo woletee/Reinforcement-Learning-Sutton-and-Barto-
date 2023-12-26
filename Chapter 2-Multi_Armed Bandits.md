@@ -58,5 +58,5 @@ The 10 armed Testbed
 - from the above we can see that the weight given to reward i ,Ri depends on how many rewards ago was it observed
 - Thus weight given to the ith reward decreases exponentially as the number of rewards raises.
 
-- ![what is Reinforcement learning](/Images/ree.PNG "Optional title attribute")
+- ![what is Reinforcement learning](/Images/reee.jpg "Optional title attribute")
 
