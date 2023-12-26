@@ -46,7 +46,21 @@ The 10 armed Testbed
 - In this problem there are basically 10 arms: you can imagine a bandit with 10 arms. each arm when pulled will result in different values of reward. The distribution of each reward is basically unknown to the leaner and the decision-maker.
 - Goal: The goal of the learning algorithm is to maximize the reward. this involves figuring out the which lever yields the highest reward.
 - Exploitation versus Exploration dilemma: The key challenge in 10 armed bandit problem is to try different levels to learn which one will yield the highest reward and exploitation (pulling the lever that currently seems to result in the highest reward.)
-- Tackling a Non-stationary Problem
+
+
+Incremental Implementation 
+
+- The action value methods we have seen on the previous topic all estimate action-values as sample averages of observed rewards.
+- let Ri be the ith reward obtained after the ith action is selected and let Qn denote the total action-values obtained after the action has been selected for n-1 times.
+- Qn=R1+R2+R3+R4+R5………. +Rn-1/n-1
+- The obvious method is to store all of the rewards and to perform the above computation whenever their action-values are required.
+- However, if we are going to do this it will require higher computation time and space when will have a large number of rewards.
+- Each additional reward will require additional space and then computation time for performing the above numerator computation.
+- But the below method will avoid the above problem and will always require constant computation space and computation time.
+- The computation is shown on the below given image.
+
+- 
+  Tackling a Non-stationary Problem
 
 - The average methods we have discussed above are more appropriate for stationary bandit problems. that is for bandit problems for which the reward probability does not vary overtime. (constant reward probability)
 - - But in reality reinforcement learning problems are non stationary ( which is the reward probability varies over time)
