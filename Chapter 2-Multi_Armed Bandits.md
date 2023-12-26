@@ -53,3 +53,7 @@ The 10 armed Testbed
 - In this sense it makes sense to give more weight for recent weights than those of long one rewards
 - - 
 - One of the most popular way of doing this is to use constant stpe size parameter(alpha)
+
+- we call the above weighted average because the sum of the weights is basically 1
+- from the above we can see that the weight given to reward i ,Ri depends on how many rewards ago was it observed
+- Thus weight given to the ith reward decreases exponentially as the number of rewards raises.
