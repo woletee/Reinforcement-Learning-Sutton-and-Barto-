@@ -87,3 +87,14 @@ optimistic initial values
 - This approach is particularly useful in environment where the rewards are sparse.
 - It encourages the agent to explore more instead of getting stuck into local optima.
 - In other words it prevent converges to suboptimal values
+
+
+Upper Confidence Bound Action Selection (UCB)
+
+- UCB: action selection is a strategy used in reinforcement learning particularly multiarmed bandit problem to balance the exploration versus exploitation tradeoffs.
+- These methods selects actions based on two things: the first one is estimated value and the second one is Uncertainty..
+- The key idea is to exploit what you already know while exploring what you are uncertain about , in order to maximize reward.
+- Formulation of UCB : the algorithm provides a formula that incorporates both the estimated value of an action and also uncertainty associated with that specific action.
+- As an action is chosen more its uncertainty decreases. thus actions with higher uncertainty are favorable.
+- At each step the UCB computation will be carried out and actions with the highest UCB will be selected.
+- UCB performs better in Non stationary environment and it does not require for parameter definition or alpha unlike the other methods called greedy and e-greedy.
