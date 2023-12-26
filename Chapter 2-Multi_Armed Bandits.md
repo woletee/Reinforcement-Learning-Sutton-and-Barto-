@@ -39,3 +39,10 @@ Total probability of selecting the greedy action=(1-e) + e/total number of actio
 Total probability of selecting the greedy action= (1-0.5) + 0.5/2
 
 Total probability of selecting the greedy action= 0.75 (75 %)
+
+The 10 armed Testbed
+
+- 10-armed test bed is a concept that is basically used in Reinforcement learning. it is a hypothetical scenario used for testing the performance of different algorithms especially in the field exploring versus exploiting.
+- In this problem there are basically 10 arms: you can imagine a bandit with 10 arms. each arm when pulled will result in different values of reward. The distribution of each reward is basically unknown to the leaner and the decision-maker.
+- Goal: The goal of the learning algorithm is to maximize the reward. this involves figuring out the which lever yields the highest reward.
+- Exploitation versus Exploration dilemma: The key challenge in 10 armed bandit problem is to try different levels to learn which one will yield the highest reward and exploitation (pulling the lever that currently seems to result in the highest reward.)
