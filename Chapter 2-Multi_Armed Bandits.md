@@ -49,3 +49,5 @@ The 10 armed Testbed
 - Tackling a Non-stationary Problem
 
 - The average methods we have discussed above are more appropriate for stationary bandit problems. that is for bandit problems for which the reward probability does not vary overtime. (constant reward probability)
+- - But in reality reinforcement learning problems are non stationary ( which is the reward probability varies over time)
+- In this sense it makes sense to give more weight for recent weights than those of long one rewards
