@@ -74,3 +74,16 @@ Incremental Implementation
 
 - ![what is Reinforcement learning](/Images/reee.jpg "Optional title attribute")
 
+
+optimistic initial values 
+
+- The concept of optimistic initial values in reinforcement leaning is a strategy used to encourage the exploration particularly in the early stages of learning.
+- Initial value setting : in RL algorithms each action pair is assigned an initial estimated value
+- This values are used to guide agents in order to make decisions particularly in the lack of any experience.
+- The principle of optimistic initial values is setting these initial values to an artificially higher values
+- This optimistic reflects the idea a belief that actions are potentially rewarding until they proven otherwise.
+- This principle encourages exploration by overestimating action values the agent is encouraged to try out different actions to gain more information.
+- This is particularly important in environment where the agent has no any prior experience.
+- This approach is particularly useful in environment where the rewards are sparse.
+- It encourages the agent to explore more instead of getting stuck into local optima.
+- In other words it prevent converges to suboptimal values
