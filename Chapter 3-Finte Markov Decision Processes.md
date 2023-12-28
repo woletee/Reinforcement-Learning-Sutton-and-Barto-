@@ -25,6 +25,8 @@ What are the key components of MDP?
 - The image given below shows the concepts behind MDP
 - ![what is Reinforcement learning](/Images/markov.jpg "Optional title attribute")
   - ![what is Reinforcement learning](/Images/markov2.jpg "Optional title attribute")
+- ![what is Reinforcement learning](/Images/markov3.jpg "Optional title attribute")
+- ![what is Reinforcement learning](/Images/markov4.jpg "Optional title attribute")
 
 How Does MDP find the Optimal Policy?
 
