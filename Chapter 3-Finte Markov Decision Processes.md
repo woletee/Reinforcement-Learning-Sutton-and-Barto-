@@ -29,3 +29,8 @@ How Does MDP find the Optimal Policy?
 - From the above we have said that the objective of MDP is to find the optimal policy that will result in greater cumulative reward overtime but how does MDP achieve this purpose?
 - The above objective involves selecting actions that will result in higher reward overtime.
 - we have basically three method that will evaluate the long-term benefits of taking an action.
+  
+1) Value function 
+- Value iteration: It is a method of computing the optimal policy by iteratively improving the value function.
+- The value function estimates how good is to be in this state
+- Value function: Assigns a value to each of the states which shows the cumulative reward that can be obtained starting from that state.
