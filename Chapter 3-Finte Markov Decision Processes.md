@@ -48,3 +48,12 @@ Process:
 - There are basically two main steps in this method.
 - Policy evaluation: creates the value of being in each state under current policy.
 - Policy improvement: update the policy by choosing actions in each state that maximize the expected utility based on the current value functions.
+- Process:
+
+              1) starts with a random policy
+
+              2) Evaluate the policy
+
+              3) Improve the policy
+
+              4) Repeat the evaluation
