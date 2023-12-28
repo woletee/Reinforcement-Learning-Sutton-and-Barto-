@@ -71,3 +71,8 @@ Process:
                 2) Update Q-values
 
                 3) Policy is derived by choosing action with the highest Q-value
+
+- ![what is Reinforcement learning](/Images/reinn1.jpg "Optional title attribute")
+- 
+- ![what is Reinforcement learning](/Images/reinn2.jpg "Optional title attribute")
+
