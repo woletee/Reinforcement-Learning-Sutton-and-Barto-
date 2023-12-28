@@ -17,3 +17,7 @@ What are the key components of MDP?
 - Actions(A): For each state there are various actions that an agent can agent to go into another state.
 - Transition Probability (TP): This a function that gives the probability of transitioning from one state into another by taking an action in a given state.
 - The above probability is basically Markvian which mean its value depends on only on the current state and action.
+- Rewards(R): A reward function defines the immediate return received after transitioning into another state by taking an action.
+- The goal of the agent is basically to maximize the overall reward called the cumulative reward overtime.
+- Policy: This is a strategy used by the agent that determines which actions to select next.
+- Policy can be : 1) deterministic (always selecting the same action) 2) selecting actions based on probability distribution.
