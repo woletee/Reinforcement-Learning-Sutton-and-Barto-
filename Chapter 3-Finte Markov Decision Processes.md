@@ -22,7 +22,7 @@ What are the key components of MDP?
 - Policy: This is a strategy used by the agent that determines which actions to select next.
 - Policy can be : 1) deterministic (always selecting the same action) 2) selecting actions based on probability distribution.
 - The objective of MDP is to find the optimal policy that will maximize the cumulative reward (overall reward received overtime).
-- 
+- The image given below shows the concepts behind MDP
 - ![what is Reinforcement learning](/Images/markov.jpg "Optional title attribute")
 
   
