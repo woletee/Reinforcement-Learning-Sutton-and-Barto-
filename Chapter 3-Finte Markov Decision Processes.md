@@ -22,3 +22,10 @@ What are the key components of MDP?
 - Policy: This is a strategy used by the agent that determines which actions to select next.
 - Policy can be : 1) deterministic (always selecting the same action) 2) selecting actions based on probability distribution.
 - The objective of MDP is to find the optimal policy that will maximize the cumulative reward (overall reward received overtime).
+
+  
+How Does MDP find the Optimal Policy?
+
+- From the above we have said that the objective of MDP is to find the optimal policy that will result in greater cumulative reward overtime but how does MDP achieve this purpose?
+- The above objective involves selecting actions that will result in higher reward overtime.
+- we have basically three method that will evaluate the long-term benefits of taking an action.
