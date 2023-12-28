@@ -76,3 +76,7 @@ Process:
 - 
 - ![what is Reinforcement learning](/Images/reinn2.jpg "Optional title attribute")
 
+- - ![what is Reinforcement learning](/Images/math1.jpg "Optional title attribute")
+- ![what is Reinforcement learning](/Images/math2.jpg "Optional title attribute")
+
+
