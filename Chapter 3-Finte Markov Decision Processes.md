@@ -57,3 +57,8 @@ Process:
               3) Improve the policy
 
               4) Repeat the evaluation
+3) Q-learning 
+
+- Model free reinforcement learning method.
+- Q-value: the quality of a particular action taken in a particular state.
+- process:
