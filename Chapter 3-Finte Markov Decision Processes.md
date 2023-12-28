@@ -62,3 +62,8 @@ Process:
 - Model free reinforcement learning method.
 - Q-value: the quality of a particular action taken in a particular state.
 - process:
+                1) Initialize arbitrary Q-values
+
+                2) Update Q-values
+
+                3) Policy is derived by choosing action with the highest Q-value
