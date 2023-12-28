@@ -34,3 +34,12 @@ How Does MDP find the Optimal Policy?
 - Value iteration: It is a method of computing the optimal policy by iteratively improving the value function.
 - The value function estimates how good is to be in this state
 - Value function: Assigns a value to each of the states which shows the cumulative reward that can be obtained starting from that state.
+Process:
+
+          1) Initialize the value of all of the states arbitrarily except for the terminal state which is 0
+
+          2) Update the value of each of the state using Bellman Optimality equation
+
+- The above step must be repeated until the value function converges to a stable state.
+- By convergence we mean that the point where the value function stops changing significantly from the previous value.
+- The policy derived from the final value function is the optimal policy.
