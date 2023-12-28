@@ -24,8 +24,8 @@ What are the key components of MDP?
 - The objective of MDP is to find the optimal policy that will maximize the cumulative reward (overall reward received overtime).
 - The image given below shows the concepts behind MDP
 - ![what is Reinforcement learning](/Images/markov.jpg "Optional title attribute")
+  - ![what is Reinforcement learning](/Images/markov2.jpg "Optional title attribute")
 
-  
 How Does MDP find the Optimal Policy?
 
 - From the above we have said that the objective of MDP is to find the optimal policy that will result in greater cumulative reward overtime but how does MDP achieve this purpose?
