@@ -43,3 +43,8 @@ Process:
 - The above step must be repeated until the value function converges to a stable state.
 - By convergence we mean that the point where the value function stops changing significantly from the previous value.
 - The policy derived from the final value function is the optimal policy.
+2) Policy iteration
+
+- There are basically two main steps in this method.
+- Policy evaluation: creates the value of being in each state under current policy.
+- Policy improvement: update the policy by choosing actions in each state that maximize the expected utility based on the current value functions.
