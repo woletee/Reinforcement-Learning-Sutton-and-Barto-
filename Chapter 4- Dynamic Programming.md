@@ -25,3 +25,6 @@
 - so dynamic programming is all about how we are going to solve for the optimal value function.
 - This dynamic programming can be eighter Top-down and Bottom-Up approach.
 - Top-down approach: List out all possible subproblems and try to keep the solutions and every time you come up or encounter the same problem then use the previous stored solutions of that similar problem.
+- - You will start filling up the table of this subproblems until you kind of finish solving the whole problems.
+- In top-down approach we will create memorization of all subproblems and use them when you need.
+- The other method is Bottom approach: always start with solving in the smaller problem and keep aggregating into a larger problem
