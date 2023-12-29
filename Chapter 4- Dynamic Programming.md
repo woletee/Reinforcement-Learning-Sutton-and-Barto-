@@ -19,3 +19,9 @@
 - The probability of being in some state is being conditioned or depends on the state or the new state and this idea is called MDP.
 - we also look for the expected reward. which is given some current state s and a current action a assuming that I have moved to the next state what is the probability of the expected reward.
 - To solve for the optimal policy and to get the optimal value function is kind of brute force attack which is searching over all states.
+- so what dynamic programming did is to break down the whole problem into steps and then calculating the optimal value function for each step.
+- It is like calculating the value function for the first 5 steps and then calculating for the next steps.
+- The goal is to optimize the policy in a way that will maximize the reward which is future reward.
+- so dynamic programming is all about how we are going to solve for the optimal value function.
+- This dynamic programming can be eighter Top-down and Bottom-Up approach.
+- Top-down approach: List out all possible subproblems and try to keep the solutions and every time you come up or encounter the same problem then use the previous stored solutions of that similar problem.
