@@ -1,5 +1,4 @@
 
-- ![what is Reinforcement learning](/Images/rl3.jpg "Optional title attribute")
 # Chaptr-4 (Dynamic programming
 
 - What is dynamic programming?
@@ -28,3 +27,6 @@
 - - You will start filling up the table of this subproblems until you kind of finish solving the whole problems.
 - In top-down approach we will create memorization of all subproblems and use them when you need.
 - The other method is Bottom approach: always start with solving in the smaller problem and keep aggregating into a larger problem
+
+
+- ![what is Reinforcement learning](/Images/rl3.jpg "Optional title attribute")
