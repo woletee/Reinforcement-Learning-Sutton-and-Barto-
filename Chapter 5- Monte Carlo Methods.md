@@ -46,3 +46,4 @@ What are the key concepts of the Monte Carlo method
 - It waits until the end of the episode and uses the actual returns for updating.
 - There are basically two algorithms for Monte Carlo Control
 1. Monte carlo with exploring starts (MCES): This method ensures exploring by starting episodes from every state-action pair.
+2. On-policy First-visit MC control (for e-soft policy): This policy involves generating episodes were following an e-soft policy (a policy where all actions are selected with non-zero probability) and then improving the policy based on the returns.
