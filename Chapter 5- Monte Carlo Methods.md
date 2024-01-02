@@ -62,3 +62,11 @@ What are the steps in Monte Carlo Control?
 - This assumption will ensure that the overall process converges to the optimal policy and the optimal value functions.
 - - In this way Monte Carlo can be used for finding the optimal polices given only sample episodes and no other knowledge about the environment.
 - In order to obtain this convergence, we basically made two assumptions. one is that episodes have exploring starts and the other is that policy evaluation can be done with a number of episodes.
+What is Monte Carlo Control without exploring starts?
+
+- The only general way to ensure that all of the actions are selected infinitely is often for the agent to continue to select them.
+- There are basically two approaches in ensuring this:
+1. On-policy methods: attempts improve or evaluate the policy that is used to make decisions.
+- In this method we can say that the policy is generally soft meaning that the policy is basically greater than zero for taking action a from a set of actions and being in states s
+- One of the on-policy method uses e-greedy method meaning that most of the time you choose actions that has maximal estimated action-value but with some probability we choose some action at random.
+1. Off-policy: evaluate or improve a policy that is different from the one used to generate data.
