@@ -60,3 +60,5 @@ What are the steps in Monte Carlo Control?
 - Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
 - Policy improvement is constructed by thinking there is one policy which is at least better or equal with the other polices.
 - This assumption will ensure that the overall process converges to the optimal policy and the optimal value functions.
+- - In this way Monte Carlo can be used for finding the optimal polices given only sample episodes and no other knowledge about the environment.
+- In order to obtain this convergence, we basically made two assumptions. one is that episodes have exploring starts and the other is that policy evaluation can be done with a number of episodes.
