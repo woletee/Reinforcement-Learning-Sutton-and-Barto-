@@ -20,3 +20,4 @@ What is Monte carol estimation of action-values?
 - With a model only estimating the state values is just enough.
 - from the above state values are just enough for making or for estimating the state values.
 - state values are enough to estimate the policy.
+But without a model, one must also determine the action-state values in order to determining or making estimation the policy.
