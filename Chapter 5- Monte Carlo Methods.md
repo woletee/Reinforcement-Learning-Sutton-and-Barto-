@@ -17,3 +17,6 @@ What is Monte carol prediction.
   
 What is Monte carol estimation of action-values?
 - If a model is not available, it is more appropriate to estimate the action-state values (or the action-state values) instead of the just the state values.
+- With a model only estimating the state values is just enough.
+- from the above state values are just enough for making or for estimating the state values.
+- state values are enough to estimate the policy.
