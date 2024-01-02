@@ -21,3 +21,9 @@ What is Monte carol estimation of action-values?
 - from the above state values are just enough for making or for estimating the state values.
 - state values are enough to estimate the policy.
 But without a model, one must also determine the action-state values in order to determining or making estimation the policy.
+
+What is Monte Carol control?
+
+- The overall idea is to proceed according to the same pattern as the dynamic programming (DP).
+- Which is according to the idea of Generalized Policy Iteration (GPI)
+- In GPI, one maintains both the:
