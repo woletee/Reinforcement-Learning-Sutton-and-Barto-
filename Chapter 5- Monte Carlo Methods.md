@@ -47,3 +47,11 @@ What are the key concepts of the Monte Carlo method
 - There are basically two algorithms for Monte Carlo Control
 1. Monte carlo with exploring starts (MCES): This method ensures exploring by starting episodes from every state-action pair.
 2. On-policy First-visit MC control (for e-soft policy): This policy involves generating episodes were following an e-soft policy (a policy where all actions are selected with non-zero probability) and then improving the policy based on the returns.
+   
+What are the steps in Monte Carlo Control?
+
+1. Initialization- start with a random policy and the initialize value functions estimates.
+2. Generate episodes- Run an episode based on the current policy.
+3. Update the value estimates- at the end of the episode update the value estimates.
+4. Policy improvement- Improve the policy based on the updated value estimates.
+5. Repeat- continue repeating the above process (generate episodes, update values, Improve policy)
