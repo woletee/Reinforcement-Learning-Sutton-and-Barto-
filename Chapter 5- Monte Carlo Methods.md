@@ -58,3 +58,5 @@ What are the steps in Monte Carlo Control?
 - Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
 - Under policy evaluation the monte carol method will compute each action-values for an arbitrary policy.
 - Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
+- Policy improvement is constructed by thinking there is one policy which is at least better or equal with the other polices.
+- This assumption will ensure that the overall process converges to the optimal policy and the optimal value functions.
