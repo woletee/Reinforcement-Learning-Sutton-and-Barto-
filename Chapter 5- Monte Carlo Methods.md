@@ -30,3 +30,5 @@ What is Monte Carol control?
 1. an approximate policy 
 2. an appropriate value functions.
 - The value function is repeatedly altered to make closely approximate the value function for the current policy.
+- Policy evaluation: is done exactly as it is described on the previous section.
+- Policy improvement is done by making the policy greedy with respect to the current value functions.
