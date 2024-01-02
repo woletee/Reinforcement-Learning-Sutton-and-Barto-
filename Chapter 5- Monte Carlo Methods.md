@@ -42,3 +42,7 @@ What are the key concepts of the Monte Carlo method
 - Monte Carlo control must balance between exploration and exploitation.
 - This is often achieved through methods like the e-greedy method or the e-greedy policy.
 - where most of the time the best action is selected but with a small probability a random action is selected.
+- Monte Carlo control does not bootstrap (It doesn’t update its estimates based on the other estimates.)
+- It waits until the end of the episode and uses the actual returns for updating.
+- There are basically two algorithms for Monte Carlo Control
+1. Monte carlo with exploring starts (MCES): This method ensures exploring by starting episodes from every state-action pair.
