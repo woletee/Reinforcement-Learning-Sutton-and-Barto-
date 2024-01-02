@@ -27,3 +27,6 @@ What is Monte Carol control?
 - The overall idea is to proceed according to the same pattern as the dynamic programming (DP).
 - Which is according to the idea of Generalized Policy Iteration (GPI)
 - In GPI, one maintains both the:
+1. an approximate policy 
+2. an appropriate value functions.
+- The value function is repeatedly altered to make closely approximate the value function for the current policy.
