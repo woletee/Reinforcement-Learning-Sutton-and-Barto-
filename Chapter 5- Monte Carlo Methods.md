@@ -1,5 +1,4 @@
-
-#Chapter-5 (Monte Carlo Methods)
+# Chaptr-5 (Monte Carol Methods)
 
 What is Monte Carlo Method 
 
