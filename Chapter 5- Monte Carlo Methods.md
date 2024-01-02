@@ -10,3 +10,5 @@ What is Monte carol prediction.
 - The first one is First-visit MC method where the value of a state is calculated on the very first visit of a state.
 - This method basically does not require too much space since it doesn’t consider the revisited states.
 - The next method is every-visit MC method. This method calculates the value states at every time a state is visited.
+- This method basically takes too much of the space since it considers every state.
+- The difference between the two states lies in the treatment of the states.
