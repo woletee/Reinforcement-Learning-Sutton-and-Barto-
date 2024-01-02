@@ -14,3 +14,6 @@ What is Monte carol prediction.
 - The next method is every-visit MC method. This method calculates the value states at every time a state is visited.
 - This method basically takes too much of the space since it considers every state.
 - The difference between the two states lies in the treatment of the states.
+  
+What is Monte carol estimation of action-values?
+- If a model is not available, it is more appropriate to estimate the action-state values (or the action-state values) instead of the just the state values.
