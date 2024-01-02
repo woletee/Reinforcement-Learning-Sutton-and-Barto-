@@ -56,3 +56,5 @@ What are the steps in Monte Carlo Control?
 5. Repeat- continue repeating the above process (generate episodes, update values, Improve policy)
 - Under policy evaluation the monte carol method will compute each action-values for an arbitrary policy.
 - Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
+- Under policy evaluation the monte carol method will compute each action-values for an arbitrary policy.
+- Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
