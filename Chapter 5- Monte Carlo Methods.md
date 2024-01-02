@@ -49,6 +49,8 @@ What are the key concepts of the Monte Carlo method
 2. On-policy First-visit MC control (for e-soft policy): This policy involves generating episodes were following an e-soft policy (a policy where all actions are selected with non-zero probability) and then improving the policy based on the returns.
    
 What are the steps in Monte Carlo Control?
+- Under policy evaluation the monte carol method will compute each action-values for an arbitrary policy.
+- Policy improvement is done by making the policy greedy with respect to the current value function. In this case we have action-values and so there is no need for model in order to construct the greedy policy.
 
 1. Initialization- start with a random policy and the initialize value functions estimates.
 2. Generate episodes- Run an episode based on the current policy.
