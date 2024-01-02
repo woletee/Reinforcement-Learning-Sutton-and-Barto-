@@ -6,3 +6,5 @@ What is Monte Carlo Method
 - Only on the completion of episodes is the policy and the value estimates changed.
 
 What is Monte carol prediction.
+- There are basically two methods for estimating the value states in MC methods.
+- The first one is First-visit MC method where the value of a state is calculated on the very first visit of a state.
