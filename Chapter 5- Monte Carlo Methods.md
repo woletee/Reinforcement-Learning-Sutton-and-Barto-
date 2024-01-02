@@ -34,3 +34,4 @@ What is Monte Carol control?
 - Policy improvement is done by making the policy greedy with respect to the current value functions.
 - The monte Carlo control method refers to the Reinforcement learning method refers to a technique for finding the optimal policy for a decision-making process.
 - This method combines the principles of Monte carol sampling with the control or optimization aspect of learning the best actions to take in each state.
+- Unlike Monte Carlo prediction which is concerned with evaluating the a given policy, Monte Carlo is concerned with the improving the policy based on the feedback received from the Interactions with the environment.
