@@ -69,4 +69,4 @@ What is Monte Carlo Control without exploring starts?
 1. On-policy methods: attempts improve or evaluate the policy that is used to make decisions.
 - In this method we can say that the policy is generally soft meaning that the policy is basically greater than zero for taking action a from a set of actions and being in states s
 - One of the on-policy method uses e-greedy method meaning that most of the time you choose actions that has maximal estimated action-value but with some probability we choose some action at random.
-1. Off-policy: evaluate or improve a policy that is different from the one used to generate data.
+2. Off-policy: evaluate or improve a policy that is different from the one used to generate data.
