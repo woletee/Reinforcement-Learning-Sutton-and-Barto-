@@ -36,3 +36,10 @@ def backward_prop(y_hat,z1,a1,z2):
     dj_dweight_ih=np.dot(x.T,delta1)
     return  dj_dweight_ih, dj_dweight_ho
 #next we will define the cost function 
+def cost_function(y,y_hat):
+    j=0.5*sum((y-y_hat)**2)
+    return j
+#now we have to set the learning rate and the number of trainig iterations
+alpha=0.01
+num_iterations=5000
+#Next we will start training the network 
