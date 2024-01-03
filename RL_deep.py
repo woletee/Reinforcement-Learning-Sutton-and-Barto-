@@ -57,3 +57,9 @@ for i in range(num_iterations):
     #finally we have to store the calculated cost
     cost.append(c)
     
+#If we want we can plot the cost function as follows 
+plt.grid()
+plt.plot(range(num_iterations), cost)
+plt.title('Cost Function')
+plt.xlabel('Training Iterations')
+plt.ylabel('Cost')
