@@ -29,3 +29,10 @@ def forward_prop(x,weight_ih,weight_ho):
     y_hat=sigmoid(z2)
     return z1,a1,z2,y_hat
 #next we will define the backward propagation
+def backward_prop(y_hat,z1,a1,z2):
+    delta2=np.multiply(-(y-y_hat),sigmoid_derivative(z2))
+    dj_dweight_ho=np.dot(a1.T, delta2)
+    delta1=np.dot(delta2,weight_ho.T)*sigmoid_derivative(z1)
+    dj_dweight_ih=np.dot(x.T,delta1)
+    return  dj_dweight_ih, dj_dweight_ho
+#next we will define the cost function 
