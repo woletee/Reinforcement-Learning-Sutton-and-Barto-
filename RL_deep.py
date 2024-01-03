@@ -52,3 +52,8 @@ for i in range(num_iterations):
     #next we have to update the weights using the learning rate alpha
     weight_ih=weight_ih-alpha* dj_dweight_ih
     weight_ho=weight_ho-alpha*dj_dweight_ho
+    #next we have to compute the cost using the function created above named as cost_function
+    c=cost_function(y,y_hat)
+    #finally we have to store the calculated cost
+    cost.append(c)
+    
