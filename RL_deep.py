@@ -43,3 +43,12 @@ def cost_function(y,y_hat):
 alpha=0.01
 num_iterations=5000
 #Next we will start training the network 
+cost=[]
+for i in range(num_iterations):
+    #we will perform the forward propagation and then we will predict the output 
+    z1,a1,z2,y_hat=forward_prop(x,weight_ih,weight_ho)
+    #next we will perform the backward propagation and then we will calculate the gradiants
+    dj_dweight_ih,dj_dweight_ho=backward_prop(y_hat,z1,a1,z2)
+    #next we have to update the weights using the learning rate alpha
+    weight_ih=weight_ih-alpha* dj_dweight_ih
+    weight_ho=weight_ho-alpha*dj_dweight_ho
