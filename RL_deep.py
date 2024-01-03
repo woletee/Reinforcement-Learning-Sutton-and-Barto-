@@ -19,3 +19,13 @@ bias_ho=np.zeros((1,num_output))
 def sigmoid(z):
     return 1/(1+np.exp(-z))
 #next we will define the derivative of the sigmoid function
+def sigmoid_derivative(z):
+    return np.exp(-z)/((1+np.exp(-z)**2))
+#next we will define the forward propagation
+def forward_prop(x,weight_ih,weight_ho):
+    z1=np.dot(x,weight_ih)+bias_ih
+    a1=sigmoid(z1)
+    z2=np.dot(a1,weight_ho)+bias_ho
+    y_hat=sigmoid(z2)
+    return z1,a1,z2,y_hat
+#next we will define the backward propagation
