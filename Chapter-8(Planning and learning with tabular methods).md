@@ -23,3 +23,4 @@ Prioritized Sweeping
 - These values are backpropagated to the previous states and the actions and this process is known as the backpropagation.
 - However, the standard approach is basically inefficient because it typically updates values in a fixed order without considering their significance.
 Prioritized sweeping improves this process by prioritizing updates for those states that have the most significance difference between their estimated value which is called the temporal difference.
+The intuition behind this prioritizing 
