@@ -20,3 +20,5 @@ Prioritized Sweeping
 - particularly in methods that use dynamic programming like Q-learning.
 - In a standard reinforcement learning setting an agent learns by updating the estimated value of actions based on the observed rewards and the estimated values of the subsequent states.
 - which is like updating the values of the actions based on the observed rewards and the estimated values of the subsequent states.
+- These values are backpropagated to the previous states and the actions and this process is known as the backpropagation.
+- However, the standard approach is basically inefficient because it typically updates values in a fixed order without considering their significance.
