@@ -1,5 +1,5 @@
-Chapter-8(Planning and learning with tabular methods)
 
+# Chapter-8(Planning and learning with tabular methods)
 
 What do we mean by tabular methods, planning and learning?
 
