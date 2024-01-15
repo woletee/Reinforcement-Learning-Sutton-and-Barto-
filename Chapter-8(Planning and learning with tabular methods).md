@@ -27,3 +27,4 @@ Prioritized sweeping improves this process by prioritizing updates for those sta
 - The algorithm maintains a priority queue where states are stored based on the magnitude of their temporal difference (TD) error.
 - After each learning step, instead of updating values based on predetermined order, It selects states from the priority queue that has the highest error and then updates it first.
 - This means the algorithm sweeps through the stats-space in a prioritized order focusing in the computational resources where they needed the most.
+- Prioritized sweeping is particularly useful in the environments where only a small subset of the state space is relevant to the agent at any given time, as it avoids spending time updating values that have a little to no impact on the agents decisions. 
