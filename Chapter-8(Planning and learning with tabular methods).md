@@ -24,3 +24,4 @@ Prioritized Sweeping
 - However, the standard approach is basically inefficient because it typically updates values in a fixed order without considering their significance.
 Prioritized sweeping improves this process by prioritizing updates for those states that have the most significance difference between their estimated value which is called the temporal difference.
 The intuition behind this prioritizing sweeping is to update those states that will change the policy the most.
+The algorithm maintains a priority queue where states are stored based on the magnitude of their temporal difference (TD) error.
