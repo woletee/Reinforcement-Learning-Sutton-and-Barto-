@@ -10,3 +10,4 @@ What do we mean by tabular methods, planning and learning?
 - One of the algorithms used for learning are SARSA and Q-learning.
 
 Models and Planning
+Model based: when we say that an agent has model of the environment, we mean that anything that an agent can use to predict how the environment will respond to its action or to the action the agent has took.
