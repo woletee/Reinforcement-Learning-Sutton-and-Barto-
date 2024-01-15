@@ -17,3 +17,6 @@ Model based: when we say that an agent has model of the environment, we mean tha
 Prioritized Sweeping 
 
 - prioritized sweeping is a strategy for efficiently updating the values of the states in a reinforcement learning algorithm.
+- particularly in methods that use dynamic programming like Q-learning.
+- In a standard reinforcement learning setting an agent learns by updating the estimated value of actions based on the observed rewards and the estimated values of the subsequent states.
+- which is like updating the values of the actions based on the observed rewards and the estimated values of the subsequent states.
