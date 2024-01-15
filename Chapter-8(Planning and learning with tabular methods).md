@@ -23,7 +23,7 @@ Prioritized Sweeping
 - These values are backpropagated to the previous states and the actions and this process is known as the backpropagation.
 - However, the standard approach is basically inefficient because it typically updates values in a fixed order without considering their significance.
 Prioritized sweeping improves this process by prioritizing updates for those states that have the most significance difference between their estimated value which is called the temporal difference.
--The intuition behind this prioritizing sweeping is to update those states that will change the policy the most.
--The algorithm maintains a priority queue where states are stored based on the magnitude of their temporal difference (TD) error.
+- The intuition behind this prioritizing sweeping is to update those states that will change the policy the most.
+- The algorithm maintains a priority queue where states are stored based on the magnitude of their temporal difference (TD) error.
 - After each learning step, instead of updating values based on predetermined order, It selects states from the priority queue that has the highest error and then updates it first.
 - This means the algorithm sweeps through the stats-space in a prioritized order focusing in the computational resources where they needed the most.
