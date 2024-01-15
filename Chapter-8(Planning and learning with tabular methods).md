@@ -7,3 +7,6 @@ What do we mean by tabular methods, planning and learning?
 - Planning in the context of RL refers to the process of selecting actions to maximize a cumulative expected rewards while considering the current states and knowledge that the agent has about the environment.
   - Tabular methods for planning and involves creating arrays or tables and then updating the Q values. one of the algorithms used for learning is dynamic programming.
 - Learning in the context of RL involves acquiring about the environment and improving the agent's decision-making ability through time.
+- One of the algorithms used for learning are SARSA and Q-learning.
+
+Models and Planning
